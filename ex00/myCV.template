@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV de {first_name} {last_name}</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+        body {
+            background: #1a1a1a;
+            color: #f8f8f2;
+            font-family: 'MedievalSharp', cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background: #2a2a2a;
+            border: 2px solid #a8895b;
+            border-radius: 15px;
+            box-shadow: 0 0 15px #000;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: #d4af37;
+            border-bottom: 2px solid #a8895b;
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+
+        .sigil {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .sigil img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{first_name} {last_name}</h1>
+        <p><strong>Âge :</strong> {age} ans</p>
+        <p><strong>Profession :</strong> {job}</p>
+
+        <div class="sigil">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/House_Stark.svg/1200px-House_Stark.svg.png" alt="Blason">
+            <p><em>"Winter is Coming"</em></p>
+        </div>
+    </div>
+</body>
+</html>
