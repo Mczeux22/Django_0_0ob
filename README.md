@@ -1,49 +1,90 @@
-# Django_0_0ob
+# 📚 Formation Python-Django - 0 (OOB)
 
-# 📚 Snippet Gallery - Projet JavaScript
+## 🚀 Résumé
 
-Ce projet est une **galerie interactive de snippets de code** développée en HTML, CSS et JavaScript pur. Il a été réalisé dans le cadre d'un exercice de développement web.
-
-## 🎯 Objectif
-
-Créer une interface web permettant :
-- d'afficher des extraits de code (snippets) à partir de templates HTML,
-- d'ajouter des snippets à une section de favoris,
-- de filtrer dynamiquement les favoris via un champ de recherche.
-
-## 🧩 Technologies utilisées
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-
-## 🗂️ Structure du projet
-
-## 🚀 Fonctionnalités
-
-- Chargement dynamique de snippets via les balises `<template>`.
-- Possibilité d’ajouter un snippet à ses **favoris**.
-- Affichage d’une **liste de favoris** dans une section dédiée.
-- Champ de **recherche dynamique** permettant de filtrer les favoris.
-
-## 🧪 Contraintes
-
-- Aucun framework JavaScript (pas de React, Vue, etc.).
-- Aucun fichier HTML ou CSS ne doit être modifié, sauf le JS (`app.js`).
-- Le code doit être propre, fonctionnel, et validé W3C.
-
-## 📸 Capture d'écran
-
-*À insérer ici une image ou une capture de votre application.*
-
-## ✅ Résultat attendu
-
-À l’ouverture de la page :
-- Tous les snippets sont visibles.
-- Un bouton permet d’ajouter un snippet aux favoris.
-- Les favoris apparaissent dans une section distincte.
-- Un champ de filtre permet de rechercher dans les favoris en temps réel.
+Bienvenue dans la première journée du projet **Python-Django - OOB** (Object-Oriented Basics) !
+Aujourd’hui, vous partez à la conquête de la Silicon Valley, fort·e de vos nouvelles compétences en programmation orientée objet (POO) avec Python. Ce projet vous fait découvrir les fondements de la POO, la manipulation de fichiers, la création de classes, l'héritage, et la modélisation de structures HTML.
 
 ---
 
-> Projet réalisé dans le cadre d’un exercice de formation en développement front-end.
+## 📺 Table des matières
+
+* [Préambule](#préambule)
+* [Règles communes](#règles-communes)
+* [Règles spécifiques](#règles-spécifiques)
+* [Liste des exercices](#exercices)
+---
+
+## 💙 Préambule
+
+*"Join us now and share the software; you’ll be free, hackers, you’ll be free."*
+Un hommage à la **Free Software Song** pour démarrer cette aventure dans l’esprit du logiciel libre.
+
+---
+
+## ⚙️ Règles communes
+
+* Travail à réaliser **dans une machine virtuelle** avec tous les outils nécessaires.
+* Respect de la **structure de fichiers et dossiers** demandée.
+* Aucune **erreur critique** ne doit apparaître (segfault, double free, etc.).
+* Tout le code doit être **testable** et **testé**.
+* Le dépôt Git est la **source unique de vérité** pour l’évaluation.
+
+---
+
+## 📌 Règles spécifiques
+
+* Aucun code dans le scope global.
+* Les fichiers `.py` doivent se terminer par :
+
+  ```python
+  if __name__ == '__main__':
+      # Tests ici
+  ```
+* **Aucune exception non catchée**.
+* **Imports strictement limités** selon les consignes des exercices.
+* Utilisation exclusive de **Python 3**.
+
+---
+
+## 🧩 Exercices
+
+### 📜 Ex00 - À la conquête de la Silicon Valley
+
+Développez un moteur de template HTML à partir d’un fichier `.template` et d’un fichier `settings.py`.
+
+### ☕ Ex01 - Intern et café pas terrible
+
+Création de la classe `Intern` et d’un système simple de gestion de tâches avec exceptions.
+
+### 🍵 Ex02 - 5 classes 1 cup
+
+Création de classes de boissons chaudes dérivées de `HotBeverage`, chacune avec sa propre personnalité.
+
+### 🛠️ Ex03 - Glorious coffee machine
+
+Implémentation d’une `CoffeeMachine` capable de tomber en panne et de se faire réparer, avec gestion aléatoire du service.
+
+### 🧱 Ex04 - Base class pour HTML
+
+Modélisation d’éléments HTML avec une classe `Elem` et gestion propre des attributs et contenus.
+
+### 🧩 Ex05 - HTML sans effort
+
+Création de classes spécialisées (`html`, `body`, `div`, etc.) héritant de `Elem` pour simplifier la génération HTML.
+
+### 🔍 Ex06 - Validation HTML
+
+Implémentation d’une classe `Page` capable de **valider structurellement** une page HTML selon un ensemble de règles strictes.
+
+
+## 🧠 Remarques
+
+Ce projet est une excellente base pour :
+
+* Comprendre les principes de **la POO en Python**
+* Modéliser des objets complexes (comme le HTML)
+* Gérer des erreurs proprement
+* Organiser un projet sur GitHub
+
+Bonne chance, futur·e développeur·se de la Silicon Valley 🌿
